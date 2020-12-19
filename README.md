@@ -29,13 +29,15 @@ Le richieste che vediamo nel diagramma dei casi d'uso possono essere effettuate 
 Vediamo alcuni esempi di rotte e filtri applicabili:
 
 |Esempio rotta| Spiegazione |
+|-------------|-------------|
 |"/Data{id}"| Sostituendo "id" con l'id di un'offerta di lavoro verrà mostrata, appunto, quell'offerta|
 
 |Esempio filtro| Spiegazione|
+|--------------|------------|
 |{"description" : "python"| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte riguardanti python|
 |{"location":"Germany"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania|
 |{"description":"python", "location":"Germany"}|  Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania riguardanti python |
-|||
+
 
 
 
