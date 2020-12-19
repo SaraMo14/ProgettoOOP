@@ -3,7 +3,9 @@
 #### Sara Montese, Riccardo Terrenzi
 
 ## Descrizione generale
-Il programma consiste nell'implementazione di un servizio di monitoraggio e ricerca diofferte di lavoro, in particolare, un servizio che, in base all'api scelta:
+Il programma consiste nell'implementazione di un servizio di monitoraggio e ricerca di offerte di lavoro. 
+
+In particolare, un servizio che, in base all'api scelta:
 
 - Mostri le offerte di lavoro full-time presenti su Githubs Jobs, tenendo conto delle parole chiave inserite dall'utente.
 
