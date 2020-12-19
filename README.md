@@ -13,6 +13,11 @@ In particolare, un servizio che, in base all'api scelta:
 
 ## Funzionamento generale
 
+![usecasediagram](blob:https://web.whatsapp.com/82a24e83-6dae-4707-a811-6edc0218fcea)
+
+
+
+
 |Rotte    | Tipo | Descrizione |  
 |---------|------------|-------|
 |  "/Data"      | Get  | Rotta che restituisce tutte le offerte di lavoro presenti su Github Jobs|
