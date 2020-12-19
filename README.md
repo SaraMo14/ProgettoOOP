@@ -11,7 +11,7 @@ In particolare, un servizio che, in base all'api scelta:
 
 - Generi statistiche su uno storico di lavori proposti in differenti stati, tenendo conto delleparole chiave inserite dall'utente.
 
-##Funzionamento generale
+## Funzionamento generale
 
 |Rotte    | Tipo | Descrizione |  
 |---------|------------|-------|
