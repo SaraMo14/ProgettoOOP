@@ -1,6 +1,6 @@
 # Looking for a job
 
-### Sara Montese, Riccardo Terrenzi
+#### Sara Montese, Riccardo Terrenzi
 
 ## Descrizione generale
 Il programma consiste nell'implementazione di un servizio di monitoraggio e ricerca diofferte di lavoro, in particolare, un servizio che, in base all'api scelta:
