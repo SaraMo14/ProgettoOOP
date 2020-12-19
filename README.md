@@ -51,3 +51,11 @@ Nel creare i filtri abbiamo utilizzato due tipi di operatori:
 
 ## Packages e Classi
 
+## Suddivisione del lavori
+-Sara Montese 50%
+-Riccardo Terrenzi 50%
+
+## Softwares
+- Eclipse 
+- Maven
+- Spring Boot
