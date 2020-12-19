@@ -15,8 +15,8 @@ In particolare, un servizio che, in base all'api scelta:
 
 |Rotte    | Tipo | Descrizione |  
 |---------|------------|-------|
-|  "\Data"      | Get  | Rotta che restituisce tutte le offerte di lavoro presenti su Github Jobs|
-|  "\Data{id}"  | Get  | Rotta che restituisce l'offerte di lavoro con l'id specificato dall'utente come path variable|
-|  "\Filter"    | Post | Rotta che restituisce le offerte di lavoro filtrate in base al filtro inserito dall'utente nel body|
-|  "\Stats"     | Post | Rotta che restituisce le statistiche per una o tutte le stati, in base alle parole chiave specificate dall'utente nel body|
-|  "\Countries" | Get  | Rotta che restituisce l'elenco di stati sulle quali si possono calcolare le statistiche|
+|  "/Data"      | Get  | Rotta che restituisce tutte le offerte di lavoro presenti su Github Jobs|
+|  "/Data{id}"  | Get  | Rotta che restituisce l'offerte di lavoro con l'id specificato dall'utente come path variable|
+|  "/Filter"    | Post | Rotta che restituisce le offerte di lavoro filtrate in base al filtro inserito dall'utente nel body|
+|  "/Stats"     | Post | Rotta che restituisce le statistiche per una o tutte le stati, in base alle parole chiave specificate dall'utente nel body|
+|  "/Countries" | Get  | Rotta che restituisce l'elenco di stati sulle quali si possono calcolare le statistiche|
