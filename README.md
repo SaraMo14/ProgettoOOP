@@ -13,7 +13,7 @@ In particolare, un servizio che, in base all'api scelta:
 
 ## Funzionamento generale
 
-
+![nome_immagine]()
 
 |Rotte    | Tipo | Descrizione |  
 |---------|------------|-------|
