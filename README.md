@@ -15,6 +15,8 @@ In particolare, un servizio che, in base all'api scelta:
 
 ![Casi d'uso](https://github.com/SaraMo14/ProgettoOOP/blob/main/UseCaseDiagram.jpeg)
 
+Le richieste che vediamo nel diagramma dei casi d'uso possono essere effettuate sfruttando le seguenti rotte:
+
 |Rotte    | Tipo | Descrizione |  
 |---------|------------|-------|
 |  "/Data"      | Get  | Rotta che restituisce tutte le offerte di lavoro presenti su Github Jobs|
