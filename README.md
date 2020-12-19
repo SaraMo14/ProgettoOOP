@@ -51,7 +51,7 @@ Nel creare i filtri abbiamo utilizzato due tipi di operatori:
 
 ## Packages e Classi
 
-## Suddivisione del lavori
+## Suddivisione del lavoro
 - Sara Montese 50%
 - Riccardo Terrenzi 50%
 
