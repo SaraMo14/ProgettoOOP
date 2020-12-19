@@ -13,7 +13,7 @@ In particolare, un servizio che, in base all'api scelta:
 
 ## Funzionamento generale
 
-![nome_immagine]()
+![Casi d'uso](https://github.com/SaraMo14/ProgettoOOP/blob/main/UseCaseDiagram.jpeg)
 
 |Rotte    | Tipo | Descrizione |  
 |---------|------------|-------|
