@@ -13,7 +13,7 @@ In particolare, un servizio che, in base all'api scelta:
 
 ##Funzionamento generale
 
-|prova | tabella|
-|------|--------|
-|  1   |    t    |
-|  2   | w      |
+|Rotte    | Tipo | Descrizione |  
+|---------|------------|-------|
+| "\Data"       |  Get  |      |
+|  "\Data{id}"  |  Get  |      |
