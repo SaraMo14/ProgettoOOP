@@ -50,6 +50,31 @@ Nel creare i filtri abbiamo utilizzato due tipi di operatori:
 |"$and"| Mostra i risultati che rispettano tutti i filtri immessi|
 
 ## Packages e Classi
+Vediamo ora come sono sviluppati i vari packages: 
+
+- Jobs application
+![application](https://github.com/SaraMo14/ProgettoOOP/blob/main/Jobs.jpeg)
+
+- Controller
+![Controller](https://github.com/SaraMo14/ProgettoOOP/blob/main/Controller.jpeg)
+
+- Services
+![Services](https://github.com/SaraMo14/ProgettoOOP/blob/main/Services.jpeg)
+
+- Utils
+![Utils](https://github.com/SaraMo14/ProgettoOOP/blob/main/Utils.jpeg)
+
+- Model
+![Model](https://github.com/SaraMo14/ProgettoOOP/blob/main/Model.jpeg)
+
+- Filters
+![Filters](https://github.com/SaraMo14/ProgettoOOP/blob/main/Filters.jpeg)
+
+- Statistics
+![Statistics](https://github.com/SaraMo14/ProgettoOOP/blob/main/Statistics.jpeg)
+
+- Exceptions
+![Exceptions](https://github.com/SaraMo14/ProgettoOOP/blob/main/Exceptions.jpeg)
 
 ## Suddivisione del lavoro
 - Sara Montese 50%
