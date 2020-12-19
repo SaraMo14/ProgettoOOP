@@ -45,8 +45,9 @@ Vediamo alcuni esempi di rotte e filtri applicabili:
 Nel creare i filtri abbiamo utilizzato due tipi di operatori:
 
 |Operatori nei filtri| Spiegazione|
+|--------------------|-------------|
 |"$in"| Mostra i risultati che rispettano almeno uno dei filtri|
 |"$and"| Mostra i risultati che rispettano tutti i filtri immessi|
 
-##Packages e Classi
+## Packages e Classi
 
