@@ -90,6 +90,10 @@ Andiamo a vedere nello specifico i diagrammi delle sequenze, per vedere quali so
 
 ![countries](https://github.com/SaraMo14/ProgettoOOP/blob/main/countries.jpeg)
 
+-"/Filter"
+
+![countries](https://github.com/SaraMo14/ProgettoOOP/blob/main/filters.jpeg)
+
 ## Suddivisione del lavoro
 - Sara Montese 50%
 - Riccardo Terrenzi 50%
