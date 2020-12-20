@@ -85,6 +85,19 @@ Vediamo ora come sono sviluppati i vari packages:
 ![Exceptions](https://github.com/SaraMo14/ProgettoOOP/blob/main/Exceptions.jpeg)
 
 ## Sequenze
+Andiamo a vedere nello specifico i diagrammi delle sequenze, per vedere quali sono le classi coinvolte e il processo che c'è dietro ogni chiamata:
+
+- "/Data"
+
+![allpages](https://github.com/SaraMo14/ProgettoOOP/blob/main/allpages.jpeg)
+
+- "Data/{id}"
+
+![idJob](https://github.com/SaraMo14/ProgettoOOP/blob/main/idJob.jpeg)
+
+- "/countries"
+
+![countries](https://github.com/SaraMo14/ProgettoOOP/blob/main/countries.jpeg)
 
 ## Suddivisione del lavoro
 - Sara Montese 50%
