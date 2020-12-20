@@ -21,16 +21,11 @@ Le richieste che vediamo nel diagramma dei casi d'uso possono essere effettuate 
 |---------|------------|-------|
 |  "/Instructions" | Get | Rotta che restituisce un elenco di istruzioni utili per effettuare richieste |
 |  "/Data"      | Get  | Rotta che restituisce tutte le offerte di lavoro presenti su Github Jobs|
-|  "/Data/{id}"  | Get  | Rotta che restituisce l'offerte di lavoro con l'id specificato dall'utente come path variable|
 |  "/Filter"    | Post | Rotta che restituisce le offerte di lavoro filtrate in base al filtro inserito dall'utente nel body|
 |  "/Stats"     | Post | Rotta che restituisce le statistiche per una o tutte le stati, in base alle parole chiave specificate dall'utente nel body|
 |  "/Countries" | Get  | Rotta che restituisce l'elenco di stati sulle quali si possono calcolare le statistiche|
 
 Vediamo alcuni esempi di rotte e filtri applicabili:
-
-|Esempio rotta| Spiegazione |
-|-------------|-------------|
-|"/Data/{id}"| Sostituendo "id" con l'id di un'offerta di lavoro verrà mostrata, appunto, quell'offerta|
 
 |Esempio filtro| Spiegazione|
 |--------------|------------|
@@ -90,10 +85,6 @@ Andiamo a vedere nello specifico i diagrammi delle sequenze, per vedere quali so
 - "/Data"
 
 ![allpages](https://github.com/SaraMo14/ProgettoOOP/blob/main/allpages.jpeg)
-
-- "Data/{id}"
-
-![idJob](https://github.com/SaraMo14/ProgettoOOP/blob/main/idJob.jpeg)
 
 - "/countries"
 
