@@ -84,6 +84,8 @@ Vediamo ora come sono sviluppati i vari packages:
 
 ![Exceptions](https://github.com/SaraMo14/ProgettoOOP/blob/main/Exceptions.jpeg)
 
+## Sequenze
+
 ## Suddivisione del lavoro
 - Sara Montese 50%
 - Riccardo Terrenzi 50%
