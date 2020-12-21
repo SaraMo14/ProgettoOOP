@@ -42,9 +42,9 @@ Vediamo alcuni esempi di rotte e filtri applicabili:
 |{"description":"python", "location" : {"$in" : [Germany, Uk, Spain]}}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania, UK o Spagna, che rispettano le parole chiave inserite dall'utente|
 |{"description":{"$and": ["python", "c++", "java"]}, "location" : "Germany"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania che rispettino le parole chiave inserite dall'utente|
 
-![filterbody](https://github.com/SaraMo14/ProgettoOOP/blob/main/filter_body.png)
+![filterbody](https://github.com/SaraMo14/ProgettoOOP/blob/main/filter_body.jpg)
 
-![filterreturn](https://github.com/SaraMo14/ProgettoOOP/blob/main/filter_return.png)
+![filterreturn](https://github.com/SaraMo14/ProgettoOOP/blob/main/filter_return.jpg)
 
 - "/Stats"
 
