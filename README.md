@@ -95,7 +95,7 @@ Andiamo a vedere nello specifico i diagrammi delle sequenze, per vedere quali so
 
 -"/Filter"
 
-![countries](https://github.com/SaraMo14/ProgettoOOP/blob/main/filter.png)
+![filter](https://github.com/SaraMo14/ProgettoOOP/blob/main/filter.png)
 
 -"/Stats"
 
