@@ -94,6 +94,10 @@ Andiamo a vedere nello specifico i diagrammi delle sequenze, per vedere quali so
 
 ![countries](https://github.com/SaraMo14/ProgettoOOP/blob/main/filter.png)
 
+-"/Stats"
+
+![stats](https://github.com/SaraMo14/ProgettoOOP/blob/main/stats.png)
+
 ## Suddivisione del lavoro
 - Sara Montese 50%
 - Riccardo Terrenzi 50%
