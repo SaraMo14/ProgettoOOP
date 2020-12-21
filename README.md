@@ -61,7 +61,7 @@ N.B. Per la rotta "/Stats", riguardo il campo description, è importante inserir
 
 Qui di seguito un esempio di filtro inserito nel body:
 
-![statsbody](https://github.com/SaraMo14/ProgettoOOP/blob/main/stats_body1.jpg)
+![statsbody](https://github.com/SaraMo14/ProgettoOOP/blob/main/stats_body2.jpg)
 
 Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 
