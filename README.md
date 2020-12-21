@@ -52,10 +52,11 @@ Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 |Esempio filtro| Spiegazione |
 |--------------|-------------|
 |{"description": ["python"], "weeks":"3"}|Inserendo questo filtro nel body sarà possibile visualizzare le statistiche riguardanti tutte le offerte su python nelle ultime 3 settimane|
-|{"location":"Germany", "weeks":"3"}|Inserendo questo filtro nel body sarà possibile visualizzare le statistiche su tutte le offerte di lavoro pubblicate in Germania nelle ultime 3 settimane|
+|{"location":"Germany", "months":"3"}|Inserendo questo filtro nel body sarà possibile visualizzare le statistiche su tutte le offerte di lavoro pubblicate in Germania nelle ultime 3 settimane|
 |{"description":["python", "c++", "java"], "location" : "Germany", "weeks":"3"}|Inserendo questo filtro sarà possibile visualizzare le statistiche sulle offerte di lavoro pubblicate in Germania riguardanti python, java e c++ nelle ultime 3 settimane|
 |{"description":["python"], "location" : {"$in" : [Germany, Uk, Spain]}}|Inserendo questo filtro sarà possibile visualizzare le statistiche sulle offerte di lavoro pubblicate in Germania, UK e Spagna riguardanti python nelle ultime 3 settimane|
 
+N.B. E' possibile scegliere tra months e weeks, così da avere statistiche rispettivamente mensili e settimanali.
 N.B. Per la rotta "/Stats", riguardo il campo description, è importante inserirlo tra parentesi quadre, come vedremo negli esempi seguenti.
 
 Qui di seguito un esempio di filtro inserito nel body:
