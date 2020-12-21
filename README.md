@@ -85,6 +85,10 @@ Vediamo ora come sono sviluppati i vari packages:
 ## Sequenze
 Andiamo a vedere nello specifico i diagrammi delle sequenze, per vedere quali sono le classi coinvolte e il processo che c'è dietro ogni chiamata:
 
+- "/instructions"
+
+![instructions](https://github.com/SaraMo14/ProgettoOOP/blob/main/instructions_sequence.jpeg)
+
 - "/Data"
 
 ![allpages](https://github.com/SaraMo14/ProgettoOOP/blob/main/allpages.jpeg)
