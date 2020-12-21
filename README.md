@@ -25,9 +25,6 @@ Le richieste che vediamo nel diagramma dei casi d'uso possono essere effettuate 
 |  "/Stats"     | Post | Rotta che restituisce le statistiche per una o tutte le stati, in base alle parole chiave specificate dall'utente nel body|
 |  "/Countries" | Get  | Rotta che restituisce l'elenco di stati sulle quali si possono calcolare le statistiche|
 
-N.B. Per la rotta "/Stats", riguardo il campo description, è importante inserirlo tra parentesi quadre, come vedremo negli esempi seguenti.
-
-
 Vediamo alcuni esempi di rotte e filtri applicabili:
 
 - "/Filter"
@@ -56,8 +53,14 @@ Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 |--------------|-------------|
 |{"description": ["python"], "weeks":"3"}|Inserendo questo filtro nel body sarà possibile visualizzare le statistiche riguardanti tutte le offerte su python nelle ultime 3 settimane|
 |{"location":"Germany", "weeks":"3"}|Inserendo questo filtro nel body sarà possibile visualizzare le statistiche su tutte le offerte di lavoro pubblicate in Germania nelle ultime 3 settimane|
-|{"description":{"$and": ["python", "c++", "java"]}, "location" : "Germany", "weeks":"3"}|Inserendo questo filtro sarà possibile visualizzare le statistiche sulle offerte di lavoro pubblicate in Germania riguardanti python, java e c++ nelle ultime 3 settimane|
-|{"description":"python", "location" : {"$in" : [Germany, Uk, Spain]}}|Inserendo questo filtro sarà possibile visualizzare le statistiche sulle offerte di lavoro pubblicate in Germania, UK e Spagna riguardanti python nelle ultime 3 settimane|
+|{"description":["python", "c++", "java"], "location" : "Germany", "weeks":"3"}|Inserendo questo filtro sarà possibile visualizzare le statistiche sulle offerte di lavoro pubblicate in Germania riguardanti python, java e c++ nelle ultime 3 settimane|
+|{"description":["python"], "location" : {"$in" : [Germany, Uk, Spain]}}|Inserendo questo filtro sarà possibile visualizzare le statistiche sulle offerte di lavoro pubblicate in Germania, UK e Spagna riguardanti python nelle ultime 3 settimane|
+
+N.B. Per la rotta "/Stats", riguardo il campo description, è importante inserirlo tra parentesi quadre, come vedremo negli esempi seguenti.
+
+Qui di seguito un esempio di filtro inserito nel body:
+
+![filterreturn](https://github.com/SaraMo14/ProgettoOOP/blob/main/stats_return.jpg)
 
 Nel creare i filtri abbiamo utilizzato due tipi di operatori:
 
