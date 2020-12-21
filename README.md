@@ -41,7 +41,7 @@ Vediamo alcuni esempi di rotte e filtri applicabili:
 
 Qui di seguito un esempio di filtro inserito nel body:
 
-![filterbody](https://github.com/SaraMo14/ProgettoOOP/blob/main/filter_body2.jpg)
+![filterbody](https://github.com/SaraMo14/ProgettoOOP/blob/main/stats_body2.jpg)
 
 Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 
