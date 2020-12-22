@@ -1,0 +1,6 @@
+"/Instructions" : Rotta Get che restituisce un elenco di istruzioni utili per effettuare richieste
+"/Data" : Rotta Get che restituisce tutte le offerte di lavoro presenti su Github Jobs
+"/Data{id}" : Rotta Get che restituisce l'offerte di lavoro con l'id specificato dall'utente come path variable
+"/Filter" : Rotta Post che restituisce le offerte di lavoro filtrate in base al filtro inserito dall'utente nel body
+"/Stats" : Rotta Post che restituisce le statistiche per una o tutte le stati, in base alle parole chiave specificate dall'utente nel body
+"/Countries" : Rotta Get che restituisce l'elenco di stati sulle quali si possono calcolare le statistiche

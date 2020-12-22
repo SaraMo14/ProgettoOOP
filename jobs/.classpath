@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="jobs/.mvn/wrapper"/>
+	<classpathentry kind="src" path="jobs/src/main/java"/>
+	<classpathentry kind="src" path="jobs/src/test/java"/>
+	<classpathentry kind="lib" path="jobs/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="jobs/json-simple-1.1.1.jar"/>
+	<classpathentry kind="output" path="jobs/target/classes"/>
+</classpath>

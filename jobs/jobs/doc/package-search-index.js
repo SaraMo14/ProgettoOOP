@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"info.univpm.jobs"},{"l":"info.univpm.jobs.controller"},{"l":"info.univpm.jobs.exceptions"},{"l":"info.univpm.jobs.filters"},{"l":"info.univpm.jobs.model"},{"l":"info.univpm.jobs.services"},{"l":"info.univpm.jobs.statistics"},{"l":"info.univpm.jobs.utils"}];updateSearchResults();

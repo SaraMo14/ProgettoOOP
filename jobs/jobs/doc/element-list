@@ -1,0 +1,8 @@
+info.univpm.jobs
+info.univpm.jobs.controller
+info.univpm.jobs.exceptions
+info.univpm.jobs.filters
+info.univpm.jobs.model
+info.univpm.jobs.services
+info.univpm.jobs.statistics
+info.univpm.jobs.utils
