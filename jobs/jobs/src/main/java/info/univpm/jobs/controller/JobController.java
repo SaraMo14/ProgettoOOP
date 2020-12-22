@@ -28,14 +28,6 @@ import org.springframework.web.bind.annotation.RequestBody;
  * @author Terrenzi Ricc
  * ardo
  */
-/**
- * @author saram
- *
- */
-/**
- * @author saram
- *
- */
 @RestController
 public class JobController {
 
