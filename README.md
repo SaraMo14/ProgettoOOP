@@ -13,7 +13,7 @@ In particolare, un servizio che, in base all'api scelta:
 
 ## Funzionamento generale
 
-![Casi d'uso](https://github.com/SaraMo14/ProgettoOOP/blob/main/usecasefinale.png)
+![Casi d'uso](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/usecasefinale.png)
 
 Le richieste che vediamo nel diagramma dei casi d'uso possono essere effettuate sfruttando le seguenti rotte:
 
