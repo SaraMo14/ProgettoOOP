@@ -37,7 +37,7 @@ Vediamo alcuni esempi di rotte e filtri applicabili:
 |{"location":"Germany"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania|
 |{"title":"Engineer"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro che hanno questo titolo|
 |{"company": "Microsoft"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro in questa azienda|
-|{"description":"python", "location":"Germany", "company":"Microsoft", "title":"Analyst"}|  Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania, riguardanti python, con titolo "Analyst", nell'azienda Microsoft |
+|{"description":"python", "location":"US", "company":"Atmosphere TV", "title":"Engineer"}|  Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate negli Stati Uniti, riguardanti python, con titolo "Engineer", nell'azienda Atmosphere TV |
 |{"description":"python", "location" : {"$in" : ["Germany", "Uk", "Spain"]}}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania, UK o Spagna, che rispettano le parole chiave inserite dall'utente|
 |{"description":{"$and": ["python", "c++", "java"]}, "location" : "Germany"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania che rispettino le parole chiave inserite dall'utente|
 
@@ -63,7 +63,7 @@ Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 |{"description": ["python"], "weeks":"3"}|Inserendo questo filtro nel body sarà possibile visualizzare le statistiche riguardanti tutte le offerte su python nelle ultime 3 settimane|
 |{"location":"Germany", "months":"3"}|Inserendo questo filtro nel body sarà possibile visualizzare le statistiche su tutte le offerte di lavoro pubblicate in Germania nelle ultime 3 settimane|
 |{"description":["python", "c++", "java"], "location" : "Germany", "weeks":"3"}|Inserendo questo filtro sarà possibile visualizzare le statistiche sulle offerte di lavoro pubblicate in Germania riguardanti python, java e c++ nelle ultime 3 settimane|
-|{"description":["python"], "location" : {"$in" : [Germany, Uk, Spain]}}|Inserendo questo filtro sarà possibile visualizzare le statistiche sulle offerte di lavoro pubblicate in Germania, UK e Spagna riguardanti python nelle ultime 3 settimane|
+|{"description":["python"], "location" : "all", "weeks":"3"}|Inserendo questo filtro sarà possibile visualizzare le statistiche sulle offerte di lavoro pubblicate in tuttli i Paesi riguardanti python nelle ultime 3 settimane|
 
 N.B. E' possibile scegliere tra months e weeks, così da avere statistiche rispettivamente mensili e settimanali.
 N.B. Per la rotta "/Stats", riguardo il campo description, è importante inserirlo tra parentesi quadre, come vedremo negli esempi seguenti.
