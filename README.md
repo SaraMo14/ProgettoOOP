@@ -17,13 +17,15 @@ In particolare, un servizio che, in base all'api scelta:
 
 Le richieste che vediamo nel diagramma dei casi d'uso possono essere effettuate sfruttando le seguenti rotte:
 
-|Rotte    | Metodo | Descrizione |  
-|---------|------------|-------|
-|  "/Instructions" | Get | Rotta che restituisce un elenco di istruzioni utili per effettuare richieste |
-|  "/Data"      | Get  | Rotta che restituisce tutte le offerte di lavoro presenti su Github Jobs|
-|  "/Filter"    | Post | Rotta che restituisce le offerte di lavoro filtrate in base al filtro inserito dall'utente nel body|
-|  "/Stats"     | Post | Rotta che restituisce le statistiche per una o tutte le stati, in base alle parole chiave specificate dall'utente nel body|
-|  "/Countries" | Get  | Rotta che restituisce l'elenco di stati sulle quali si possono calcolare le statistiche|
+|Rotte    | Metodo | Descrizione | campo |
+|---------|------------|-------|---------|
+|  "/Instructions" | Get | Rotta che restituisce un elenco di istruzioni utili per effettuare richieste ||
+|  "/Data"      | Get  | Rotta che restituisce tutte le offerte di lavoro presenti su Github Jobs||
+|  "/Filter"    | Post | Rotta che restituisce le offerte di lavoro filtrate in base al filtro inserito dall'utente nel body|"title", "company", "description", "location"|
+|  "/Stats"     | Post | Rotta che restituisce le statistiche per una o tutte le stati, in base alle parole chiave specificate dall'utente nel body|"description", "location", "months"/"weeks"|
+|  "/Countries" | Get  | Rotta che restituisce l'elenco di stati sulle quali si possono calcolare le statistiche||
+
+N.B. è obbligatorio specificare un parametro tra "weeks" e "months", altrimenti la request non darà alcuna risposta.
 
 Vediamo alcuni esempi di rotte e filtri applicabili:
 
@@ -38,6 +40,13 @@ Vediamo alcuni esempi di rotte e filtri applicabili:
 |{"description":"python", "location":"Germany", "company":"Microsoft", "title":"Analyst"}|  Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania, riguardanti python, con titolo "Analyst", nell'azienda Microsoft |
 |{"description":"python", "location" : {"$in" : ["Germany", "Uk", "Spain"]}}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania, UK o Spagna, che rispettano le parole chiave inserite dall'utente|
 |{"description":{"$and": ["python", "c++", "java"]}, "location" : "Germany"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania che rispettino le parole chiave inserite dall'utente|
+
+Nel creare i filtri abbiamo utilizzato due tipi di operatori:
+
+|Operatori nei filtri| Spiegazione|
+|--------------------|-------------|
+|"$in"| Mostra i risultati che rispettano almeno uno dei filtri, ed è utilizzabile per le location|
+|"$and"| Mostra i risultati che rispettano tutti i filtri immessi, ed è utilizzabile per la description|
 
 Qui di seguito un esempio di filtro inserito nel body:
 
@@ -66,14 +75,6 @@ Qui di seguito un esempio di filtro inserito nel body:
 Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 
 ![statsreturn](https://github.com/SaraMo14/ProgettoOOP/blob/main/stats_return1.jpg)
-
-
-Nel creare i filtri abbiamo utilizzato due tipi di operatori:
-
-|Operatori nei filtri| Spiegazione|
-|--------------------|-------------|
-|"$in"| Mostra i risultati che rispettano almeno uno dei filtri|
-|"$and"| Mostra i risultati che rispettano tutti i filtri immessi|
 
 ## Packages e Classi
 Vediamo ora come sono sviluppati i vari packages: 
