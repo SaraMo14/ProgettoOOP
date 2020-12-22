@@ -66,6 +66,7 @@ Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 |{"description":["python"], "location" : "all", "weeks":"3"}|Inserendo questo filtro sarà possibile visualizzare le statistiche sulle offerte di lavoro pubblicate in tuttli i Paesi riguardanti python nelle ultime 3 settimane|
 
 N.B. E' possibile scegliere tra months e weeks, così da avere statistiche rispettivamente mensili e settimanali.
+
 N.B. Per la rotta "/Stats", riguardo il campo description, è importante inserirlo tra parentesi quadre, come vedremo negli esempi seguenti.
 
 Qui di seguito un esempio di filtro inserito nel body:
