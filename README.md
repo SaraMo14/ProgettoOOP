@@ -79,7 +79,7 @@ Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 ![statsreturn](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/stats_return1.jpg)
 
 
-Per testare l'applicazione è necessario include i file .jar (json_simple_1.1.1.jar, gson_2.8.6.jar) alla build path del progetto.
+Per testare l'applicazione è necessario include i file .jar (json-simple-1.1.1.jar, gson-2.8.6.jar) alla build path del progetto.
 ## Packages e Classi
 Vediamo ora come sono sviluppati i vari packages: 
 
