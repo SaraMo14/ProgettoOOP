@@ -1,11 +1,9 @@
 package info.univpm.jobs;
 
-import org.junit.Before;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -20,9 +18,6 @@ import info.univpm.jobs.controller.JobController;
 import info.univpm.jobs.model.JobAdv;
 import info.univpm.jobs.services.GetAndDecodeJob;
 import info.univpm.jobs.utils.StatsUtils;
-import io.restassured.RestAssured;
-import io.restassured.response.ResponseBodyData;
-import io.restassured.specification.RequestSpecification;
 import net.bytebuddy.agent.VirtualMachine.ForHotSpot.Connection.Response;
 
 import static org.junit.jupiter.api.Assertions.*;
