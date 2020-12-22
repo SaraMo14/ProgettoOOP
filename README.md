@@ -37,7 +37,12 @@ Vediamo alcuni esempi di rotte e filtri applicabili:
 |{"location":"Germany"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania|
 |{"title":"Engineer"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro che hanno questo titolo|
 |{"company": "Microsoft"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro in questa azienda|
-|{"description":"python", "location":"Germany", "company":"Microsoft", "title":"Analyst"}|  Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania, riguardanti python, con titolo "Analyst", nell'azienda Microsoft |
+|{
+    "description":"python", 
+    "location":"Germany", 
+    "company":"Microsoft", 
+    "title":"Analyst"
+}|  Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania, riguardanti python, con titolo "Analyst", nell'azienda Microsoft |
 |{"description":"python", "location" : {"$in" : ["Germany", "Uk", "Spain"]}}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania, UK o Spagna, che rispettano le parole chiave inserite dall'utente|
 |{"description":{"$and": ["python", "c++", "java"]}, "location" : "Germany"}| Inserendo questo filtro nel body sarà possibile visualizzare tutte le offerte di lavoro pubblicate in Germania che rispettino le parole chiave inserite dall'utente|
 
