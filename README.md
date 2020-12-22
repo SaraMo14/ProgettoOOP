@@ -67,7 +67,8 @@ Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 
 N.B. E' possibile scegliere tra months e weeks, così da avere statistiche rispettivamente mensili e settimanali.
 
-N.B. Per la rotta "/Stats", riguardo il campo description, è importante inserirlo tra parentesi quadre, come vedremo negli esempi seguenti.
+N.B. Per la rotta "/Stats", riguardo il campo description, è importante inserirlo tra parentesi quadre, come vedremo negli esempi seguenti. 
+     Inoltre, per specificare la location su cui effettuare le statistiche, è consigliabile visualizzare prima la lista delle possibili Nazioni tra cui scegliere (tramite apposita rotta /Countries).
 
 Qui di seguito un esempio di filtro inserito nel body:
 
