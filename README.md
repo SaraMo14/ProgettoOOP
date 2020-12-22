@@ -50,11 +50,11 @@ Nel creare i filtri abbiamo utilizzato due tipi di operatori:
 
 Qui di seguito un esempio di filtro inserito nel body:
 
-![filterbody](https://github.com/SaraMo14/ProgettoOOP/blob/main/stats_body2.jpg)
+![filterbody](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/stats_body2.jpg)
 
 Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 
-![filterreturn](https://github.com/SaraMo14/ProgettoOOP/blob/main/filter_return.jpg)
+![filterreturn](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/filter_return.jpg)
 
 - "/Stats"
 
@@ -70,69 +70,69 @@ N.B. Per la rotta "/Stats", riguardo il campo description, è importante inserir
 
 Qui di seguito un esempio di filtro inserito nel body:
 
-![statsbody](https://github.com/SaraMo14/ProgettoOOP/blob/main/stats_body1.jpg)
+![statsbody](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/stats_body1.jpg)
 
 Qui, invece, parte del risultato ottenuto applicando il filtro mostrato sopra:
 
-![statsreturn](https://github.com/SaraMo14/ProgettoOOP/blob/main/stats_return1.jpg)
+![statsreturn](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/stats_return1.jpg)
 
 ## Packages e Classi
 Vediamo ora come sono sviluppati i vari packages: 
 
 - Jobs application
 
-![application](https://github.com/SaraMo14/ProgettoOOP/blob/main/Jobs.jpeg)
+![application](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/Jobs.jpeg)
 
 - Controller
 
-![Controller](https://github.com/SaraMo14/ProgettoOOP/blob/main/Controller.jpeg)
+![Controller](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/Controller.jpeg)
 
 - Services
 
-![Services](https://github.com/SaraMo14/ProgettoOOP/blob/main/Services.jpeg)
+![Services](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/Services.jpeg)
 
 - Utils
 
-![Utils](https://github.com/SaraMo14/ProgettoOOP/blob/main/Utils.jpeg)
+![Utils](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/Utils.jpeg)
 
 - Model
 
-![Model](https://github.com/SaraMo14/ProgettoOOP/blob/main/Model.jpeg)
+![Model](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/Model.jpeg)
 
 - Filters
 
-![Filters](https://github.com/SaraMo14/ProgettoOOP/blob/main/Filters.jpeg)
+![Filters](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/Filters.jpeg)
 
 - Statistics
 
-![Statistics](https://github.com/SaraMo14/ProgettoOOP/blob/main/Statistics.jpeg)
+![Statistics](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/Statistics.jpeg)
 
 - Exceptions
 
-![Exceptions](https://github.com/SaraMo14/ProgettoOOP/blob/main/Exceptions.jpeg)
+![Exceptions](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/Exceptions.jpeg)
 
 ## Sequenze
 Andiamo a vedere nello specifico i diagrammi delle sequenze, per vedere quali sono le classi coinvolte e il processo che c'è dietro ogni chiamata:
 
 - "/instructions"
 
-![instructions](https://github.com/SaraMo14/ProgettoOOP/blob/main/instructions_sequence.jpeg)
+![instructions](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/instructions_sequence.jpeg)
 
 - "/Data"
 
-![allpages](https://github.com/SaraMo14/ProgettoOOP/blob/main/allpages.jpeg)
+![allpages](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/allpages.jpeg)
 
 - "/countries"
 
-![countries](https://github.com/SaraMo14/ProgettoOOP/blob/main/countries.jpeg)
+![countries](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/countries.jpeg)
 
 -"/Filter"
 
-![filter](https://github.com/SaraMo14/ProgettoOOP/blob/main/filter.png)
+![filter](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/filter.png)
 
 -"/Stats"
 
-![stats](https://github.com/SaraMo14/ProgettoOOP/blob/main/stats.png)
+![stats](https://github.com/SaraMo14/ProgettoOOP/blob/main/images_readme/stats.png)
 
 ## Suddivisione del lavoro
 - Sara Montese 50%
